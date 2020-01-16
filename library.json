@@ -1,0 +1,45 @@
+{
+  "name": "ESP32-OWB",
+  "keywords": "temperature",
+  "description": "ESP32-compatible C component temeperature using One Wire protocol.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/cric96/esp32-ds18b20"
+  },
+  "authors":
+  [
+    {
+      "name": "David Antliff",
+      "url": "https://github.com/DavidAntliff",
+      "maintainer": true
+    },
+    {
+      "name": "Chris Morgan",
+      "url": "https://github.com/chmorgan"
+    }
+  ],
+  "version": "0.1",
+  "frameworks": "espidf",
+  "platforms": "espressif32",
+  "build": {
+    "flags": [
+        "-I include/"
+    ]
+  },
+  "dependencies": {
+    "name": "ESP32-OWB",
+    "authors": [
+      {
+        "name": "David Antliff",
+        "url": "https://github.com/DavidAntliff",
+        "maintainer": true
+      },
+      {
+        "name": "Chris Morgan",
+        "url": "https://github.com/chmorgan"
+      }
+    ],
+    "frameworks": "espidf"
+  }
+}
