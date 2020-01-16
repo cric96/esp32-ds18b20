@@ -28,18 +28,6 @@
     ]
   },
   "dependencies": {
-    "name": "ESP32-OWB",
-    "authors": [
-      {
-        "name": "David Antliff",
-        "url": "https://github.com/DavidAntliff",
-        "maintainer": true
-      },
-      {
-        "name": "Chris Morgan",
-        "url": "https://github.com/chmorgan"
-      }
-    ],
-    "frameworks": "espidf"
+    "url": "https://github.com/petretiandrea/esp32-owb.git"
   }
 }
